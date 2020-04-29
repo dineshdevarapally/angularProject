@@ -1,0 +1,28 @@
+.footerContainer{
+    position: absolute;
+    bottom: 0;
+    background: #21272B 0% 0% no-repeat padding-box;
+    width: 100%;
+    min-height:100px ;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+}
+.footerList{
+    display: flex;
+    margin: auto 10% auto auto;
+   
+}
+.footerList ul{
+    margin: auto 0px auto auto;
+}
+.footerList ul li{
+    list-style: none;
+    font: Bold 16px/60px Nunito Sans;
+}
+.staticclass{
+    color: #00B140;
+}

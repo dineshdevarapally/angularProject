@@ -1,0 +1,12 @@
+<div class="row mt-1 mb-1">
+  <div class="col-2">
+    <label>{{name}}</label>
+  </div>
+
+  <input [ngClass]="{'col-2':property==='F1',
+  'col-4':property==='F2',
+  'col-6':property==='F3',
+  'col-8':property==='F4',
+  'col-9':property==='F5',
+  'col-10':property==='F6'}" [placeholder]="hint"/>
+</div>

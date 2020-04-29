@@ -1,0 +1,5 @@
+<div class="dahsboardStyle">
+    <div class="formContainer" *ngFor="let input of inputs" >
+        <app-inputtext [name]="input.name" [type]="input.inputType" [hint]="input.placeHolder" [property]="input.property"></app-inputtext>
+    </div>
+</div>

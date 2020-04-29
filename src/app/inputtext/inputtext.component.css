@@ -1,0 +1,76 @@
+.inputStyle{
+    background-color: #EAEBF3;
+    border-radius: 4px;    
+    padding-left: 10px;
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 0px  0px  rgb(255,255,255), 0px 0px 11px 1px rgb(255,255,255) inset;
+    border: 2px solid #dedfe6;
+  }
+  .inputStyle:focus{
+      outline: none !important;
+      border: 1px solid #00AB40!important;;
+  }
+
+
+  /*  input styling */
+
+
+.element{
+    width: 100px;
+    min-height: 10px;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,.4);
+    font: 21px/64px Nunito Sans;
+    margin: 0 ;
+    position: absolute;
+    border-radius: 10px;
+    background: #EAEBF3;
+    background: -webkit-linear-gradient(to right, #EAEBF3, #EAEBF3);
+    background: linear-gradient(to right, #EAEBF3, #EAEBF3);
+}
+.element:focus{
+    border: 1px solid #00AB40!important;
+}
+.inner{
+    position: relative;
+    z-index: 2;
+    padding: 0 20px; 
+    width: -webkit-fill-available;
+    background-color: transparent;
+    font: 21px/64px Nunito Sans;
+    border: none;
+}
+
+.inner:focus{
+    outline: none !important;
+    border: 1px solid #00AB40!important;
+    border-radius: 10px;
+}
+
+
+  .gridsytem{
+    display: grid;
+    width: 100%;
+    padding: 10px;
+  }
+  .labelStyle{
+      width: 30%;
+      font: 14px/64px Nunito Sans;
+      color: #515253;
+  }
+  .f3{
+      width: 55%;
+  }
+  .f2{
+    width: 45%;
+}
+.f1{
+    width: 25%
+}
+.f4{
+    width: 15%
+}
+
+.f5{
+    width: 5%
+}
