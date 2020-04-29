@@ -17,12 +17,12 @@
 
 
 .element{
-    width: 100px;
-    min-height: 10px;
+    /* width: 100px; */
+    /* min-height: 10px; */
     box-shadow: 0 0 8px 0 rgba(0,0,0,.4);
     font: 21px/64px Nunito Sans;
     margin: 0 ;
-    position: absolute;
+    /* position: absolute; */
     border-radius: 10px;
     background: #EAEBF3;
     background: -webkit-linear-gradient(to right, #EAEBF3, #EAEBF3);
@@ -30,6 +30,7 @@
 }
 .element:focus{
     border: 1px solid #00AB40!important;
+    outline: none !important;
 }
 .inner{
     position: relative;
